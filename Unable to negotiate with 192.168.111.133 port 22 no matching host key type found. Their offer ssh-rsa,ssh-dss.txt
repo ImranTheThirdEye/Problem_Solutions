@@ -1,0 +1,7 @@
+Create new file with *.conf extension in /etc/ssh/ssh_config.d/
+
+sudo nano /etc/ssh/ssh_config.d/my.conf
+add to new empty line:
+
+HostKeyAlgorithms ssh-rsa,ssh-dss
+PubkeyAcceptedKeyTypes ssh-rsa,ssh-dss
