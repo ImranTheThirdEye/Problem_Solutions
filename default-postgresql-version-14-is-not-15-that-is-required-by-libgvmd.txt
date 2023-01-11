@@ -1,0 +1,6 @@
+sudo pg_lsclusters
+sudo pg_dropcluster --stop 15 main
+sudo pg_upgradecluster 14 main
+sudo pg_dropcluster --stop 14 main
+
+If have any update just replace number according to this rules
